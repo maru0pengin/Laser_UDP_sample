@@ -13,8 +13,15 @@ int main()
 	addr.sin_port = htons(7);
 	// mbed‚ÌƒAƒhƒŒƒX‚ğİ’è
 	addr.sin_addr.S_un.S_addr = inet_addr("192.168.0.2");
-	int r = 500;
-	int sendint[8] = { 0,0,r,0,r,r,0,r };
+
+	
+	//int r = 500;
+	int w = 600;
+	int h = 1400;
+	//int sendint[6] = { 0,0,h,-w / 2,h,w };
+	int sendint[6] = { 0,0,-w / 2,-h,w / 2,-h };
+
+	//int sendint[8] = { 0,0,r,0,r,r,0,r };
 	//int sendint[8] = { 200,0,0,0,0,0,0,0 };
 
 	int flag = false;
