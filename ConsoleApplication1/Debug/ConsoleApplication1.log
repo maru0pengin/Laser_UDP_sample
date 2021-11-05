@@ -1,5 +1,7 @@
 ﻿  ConsoleApplication1.cpp
-c:\users\iuchi\documents\レーザー動作サンプル\consoleapplication1\consoleapplication1.cpp(15): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+c:\users\iuchi\documents\レーザー動作サンプル\consoleapplication1\consoleapplication1.cpp(21): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\iuchi\documents\レーザー動作サンプル\consoleapplication1\consoleapplication1.cpp(22): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\iuchi\documents\レーザー動作サンプル\consoleapplication1\consoleapplication1.cpp(74): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 'inet_addr' の宣言を確認してください
   ConsoleApplication1.vcxproj -> C:\Users\iuchi\Documents\レーザー動作サンプル\Debug\ConsoleApplication1.exe
   ConsoleApplication1.vcxproj -> C:\Users\iuchi\Documents\レーザー動作サンプル\Debug\ConsoleApplication1.pdb (Full PDB)
